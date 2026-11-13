@@ -1,0 +1,8 @@
+/* Optional standalone stylesheet if HTML reports are customized later. */
+:root {
+  --bg: #0b1220;
+  --panel: #141c2e;
+  --text: #e8eefc;
+  --accent: #3ee0c5;
+}
+body { background: var(--bg); color: var(--text); font-family: "Segoe UI", sans-serif; }

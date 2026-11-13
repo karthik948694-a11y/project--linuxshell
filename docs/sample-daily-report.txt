@@ -1,0 +1,76 @@
+================================================================================
+DAILY SYSTEM REPORT
+Linux Daily Reporter v1.3.0
+================================================================================
+
+1. HEADER
+--------------------------------------------------------------------------------
+Generated        : 2026-11-09 08:00:01 +0530
+Hostname         : lab-linux-01
+Distribution     : Ubuntu 24.04.1 LTS
+Kernel           : 6.8.0-40-generic
+Uptime           : up 3 days, 4 hours, 12 minutes
+
+2. HEALTH SUMMARY
+--------------------------------------------------------------------------------
+Overall health   : WARNING
+CPU              :  81%  [################--------]   threshold 80%  [EXCEEDED]
+Memory           :  67%  [################--------]   threshold 85%  [OK]
+Disk (/)         :  91%  [#####################---]   threshold 90%  [EXCEEDED]
+Load average     : 1.02 0.88 0.70  (4 cores)
+Process count    : 186
+Failed auth (24h): 2  (review threshold 8)
+
+3. SYSTEM INFORMATION
+--------------------------------------------------------------------------------
+CPU model     : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Logical cores : 4
+CPU MHz       : 1800.000
+Architecture  : x86_64
+Load average  : 1.02 0.88 0.70
+
+4. CPU STATISTICS
+--------------------------------------------------------------------------------
+CPU utilization  : 81% (warning at 80%)
+
+Top CPU-consuming processes:
+PID      USER           %CPU   %MEM  COMMAND
+2041     student        22.1    4.3  firefox
+1188     student         8.4    1.1  gnome-shell
+
+5. MEMORY STATISTICS
+--------------------------------------------------------------------------------
+Total RAM     : 7.6 GB
+Used RAM      : 5.1 GB
+Available RAM : 2.5 GB
+RAM usage     : [################--------]  67%
+
+6. DISK STATISTICS
+--------------------------------------------------------------------------------
+Watched path   : /
+Disk usage     : [#####################---]  91%
+WARNING: Disk utilization (/) is 91% (threshold 90%)
+
+7. NETWORK STATISTICS
+--------------------------------------------------------------------------------
+INTERFACE        RX               TX
+eth0             1.2 GB           340.5 MB
+Connectivity to 8.8.8.8: OK
+
+8. PROCESS SUMMARY
+--------------------------------------------------------------------------------
+Running processes : 186
+
+9. SECURITY EVENTS AND SYSTEM ERRORS
+--------------------------------------------------------------------------------
+Failed authentication events counted: 2
+Failed login volume is within the configured review threshold (8).
+
+10. OVERALL ASSESSMENT
+--------------------------------------------------------------------------------
+Status           : WARNING
+CPU 81% | Memory 67% | Disk 91% | Failed auth events 2
+Assessment       : One or more thresholds were exceeded. Review sections 2, 4, 5, and 6.
+Notes            : Informational monitoring only. No IPs were blocked and no processes were terminated.
+
+End of report.

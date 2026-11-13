@@ -1,0 +1,7 @@
+logs/
+reports/daily-report-*
+data/
+.installed
+*.swp
+*~
+logs/tmp/
